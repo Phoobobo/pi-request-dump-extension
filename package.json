@@ -1,0 +1,27 @@
+{
+	"name": "pi-request-dump-extension",
+	"version": "0.1.0",
+	"description": "Pi extension that dumps raw prompt context, logical LLM context, and provider payloads for debugging.",
+	"type": "module",
+	"license": "MIT",
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"llm",
+		"context",
+		"debugging"
+	],
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	},
+	"pi": {
+		"extensions": [
+			"./extensions/request-dump.ts"
+		]
+	},
+	"files": [
+		"extensions",
+		"README.md",
+		"LICENSE"
+	]
+}

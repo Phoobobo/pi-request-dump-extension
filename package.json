@@ -4,6 +4,14 @@
 	"description": "Pi extension that dumps raw prompt context, logical LLM context, and provider payloads for debugging.",
 	"type": "module",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Phoobobo/pi-request-dump-extension.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Phoobobo/pi-request-dump-extension/issues"
+	},
+	"homepage": "https://github.com/Phoobobo/pi-request-dump-extension#readme",
 	"keywords": [
 		"pi-package",
 		"pi-extension",
